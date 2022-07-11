@@ -19,7 +19,7 @@ The project is designed to be dataset independent so if there is a dataset that 
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
-README includes:
+Includes:
 
 
 - [x] Include a screenshot of completed training jobs
@@ -53,7 +53,7 @@ README includes:
     ```
 
 ## Debugging and Profiling
-[profiler-debugging-report.html](./profiler-debugging-report.html)
+[profiler-debugging-report.pdf](./profiler-debugging-report.pdf)
 
 **Update**: Give an overview of how you performed model debugging and profiling in Sagemaker
 
@@ -96,7 +96,7 @@ You will find the profiler report in s3://sagemaker-us-east-1-841424068653/pytor
     ```
 
 **Update** Remember to provide the profiler html/pdf file in your submission.
--[x] Included [profiler-debugging-report.html](./profiler-debugging-report.html) file for details
+- [x] Included [profiler-debugging-report.html](./profiler-debugging-report.html) file for details
 
 
 ## Model Deployment
