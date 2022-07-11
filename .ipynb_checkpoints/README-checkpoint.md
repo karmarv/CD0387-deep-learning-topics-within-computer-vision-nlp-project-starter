@@ -28,6 +28,24 @@ Includes:
 - [x] Logs metrics during the training process
     - Log metrics CSV file [training-job-log-events-viewer-result.csv](./training-job-log-events-viewer-result.csv)
     - Screenshot [training-job-log-events-viewer-result.csv.png](./training-job-log-events-viewer-result.csv.png)
+    ```
+    INFO:__main__:Running on Device cuda:0
+    Downloading: "https://download.pytorch.org/models/resnet18-5c106cde.pth" to /root/.cache/torch/hub/checkpoints/resnet18-5c106cde.pth
+      0%|          | 0.00/44.7M  [00:00<?, ?B/s]
+      ...
+      
+    100%|██████████| 44.7M/44.7M [00:00<00:00, 62.6MB/s]
+    INFO:__main__:4
+    INFO:__main__:Start Model Training
+    INFO:__main__:Epoch 0,#011 train loss: 14.0000, acc: 0.0000, best loss: 1000000.0000
+    INFO:__main__:Epoch 0,#011 valid loss: 7.0000, acc: 2.0000, best loss: 7.0000
+    INFO:__main__:Epoch 1,#011 train loss: 9.0000, acc: 1.0000, best loss: 7.0000
+    INFO:__main__:Epoch 1,#011 valid loss: 5.0000, acc: 2.0000, best loss: 5.0000
+    2022-07-11 17:24:20,758 sagemaker-training-toolkit INFO     Reporting training SUCCESS
+    INFO:__main__:Testing Model
+    INFO:__main__:Test set: Accuracy: 412/836 = 100%), #011Testing Loss: 7.0
+    INFO:__main__:Saving Model
+    ```
 - [x] Tune at least two hyperparameters
     ```
     learning rate (lr) with a range of .001 - .1
